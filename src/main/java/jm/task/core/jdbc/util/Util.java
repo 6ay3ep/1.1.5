@@ -19,7 +19,7 @@ public class Util {
                 Configuration configuration = new Configuration();
                 Properties settings = new Properties();
                 settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/mydbtest?useSSL=false");
+                settings.put(Environment.URL, "jdbc:mysql://localhost:3306/mydbtest?useSSL=true");
                 settings.put(Environment.USER, "6ay3ep");
                 settings.put(Environment.PASS, "Ra0365314_");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
